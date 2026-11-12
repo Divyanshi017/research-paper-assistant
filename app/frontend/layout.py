@@ -26,6 +26,8 @@ TABS_STYLE = {"marginTop": "0"}
 def dashboard_panel():
     return html.Div(
         [
+            html.Div(id="dashboard-metrics"),
+
             html.Div(
                 [
                     html.Div(

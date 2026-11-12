@@ -7,6 +7,7 @@ from app.frontend.components import (
     list_item,
     TEAL,
     MUTED,
+    INK
 )
 from app.services.tavily_search import search_papers
 from app.services.paper_ranking import rank_papers
